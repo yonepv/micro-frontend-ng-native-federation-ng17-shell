@@ -25,3 +25,22 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+# Additional Notes
+
+This project is part of a whole project for micro-frontends with angular. [See doc folder](https://github.com/yonepv/micro-frontend-ng-native-federation-doc)
+
+This part belongs to an angular application that hosts one or more micro-frontends. It uses angular 17 and native federation (from @angular-architects/native-federation) for the host and remote apps communications.
+
+- To run the application (install and run):
+  ```bash
+  pnpm i
+  pnpm start
+
+- In the browser:
+
+  Menu - Home:
+  ![Home](img/shell-home.png)
+
+  Menu - Counter:
+  ![Counter](img/shell-counter.png)

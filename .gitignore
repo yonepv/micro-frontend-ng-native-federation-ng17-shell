@@ -7,6 +7,7 @@
 /bazel-out
 
 # Node
+.angular
 /node_modules
 npm-debug.log
 yarn-error.log
@@ -21,12 +22,9 @@ yarn-error.log
 *.sublime-workspace
 
 # Visual Studio Code
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
+.vscode
 .history/*
+.editor.config.ts
 
 # Miscellaneous
 /.angular/cache
@@ -40,3 +38,10 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# capacitor
+android
+capacitor.config.ts
+
+# native federation
+federation.config.js
