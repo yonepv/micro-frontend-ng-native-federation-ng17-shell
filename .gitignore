@@ -42,6 +42,3 @@ Thumbs.db
 # capacitor
 android
 capacitor.config.ts
-
-# native federation
-federation.config.js
