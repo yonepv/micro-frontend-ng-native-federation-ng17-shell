@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 
 @Component({
-  selector: 'app-root',
+  selector: 'shell-app-root',
   standalone: true,
   imports: [CommonModule, RouterModule],
   templateUrl: './app.component.html',

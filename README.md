@@ -39,15 +39,17 @@ This part belongs to an angular application that hosts one or more micro-fronten
 
 - In the browser:
 
-  Menu - Home:
+  Menu -> Home:
+
   ![Home](img/shell-home.png)
 
 
-  Menu - Counter:
+  Menu -> Counter:
+  
   ![Counter](img/shell-counter.png)
 
   This menu option calls the remote micro-frontend counter.
   
   When the extension angular native federation is applied on the application, two main files are created:
-  - src/assets/ffederation.manifest.json where we have the url to the remote micro-frontend(s)
+  - src/assets/federation.manifest.json where we have the url to the remote micro-frontend(s)
   - federation.config.json, configuration file for the communications between the micro-frontends

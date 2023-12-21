@@ -30,8 +30,7 @@
 						"target": "shell:esbuild:development",
 						"rebuildDelay": 0,
 						"dev": true,
-						"port": 4217,
-            "host": "192.168.1.171"
+						"port": 4217
 					}
 				},
 				"extract-i18n": {
